@@ -52,3 +52,5 @@ CSV files with scraped conversational threadі by keywords (sarc, sarcasm, са�
   - test_ready_for_models.csv, train_ready_for_models.csv (train-test split from dataset_ready_for_models.csv)
 
 ### Hosted at [Hugging Face Spaces](https://huggingface.co/spaces/Snizhanna/sarcasm_detection)
+
+![HF Spaces](https://github.com/botvyns/bachelor_project/blob/main/image_2024-05-14_10-56-00.png)
