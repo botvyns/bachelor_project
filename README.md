@@ -21,14 +21,14 @@
 ## Folders descriptions
 
 ### [0scraping](https://github.com/botvyns/bachelor_project/tree/main/0scraping)
-CSV files with scraped conversational threadі by keywords (sarc, sarcasm, сарк, сарказм) for 23 Telegram channels + python code with a script
+CSV files with scraped conversational threads by keywords (sarc, sarcasm, сарк, сарказм) for 23 Telegram channels + python code with a script
 
 ### [1data_merge](https://github.com/botvyns/bachelor_project/tree/main/1data_merge)
 Merging sarcastic and not sarcastic messages from Telegram and X (Twiter)
 
 **Input**:
-  - `twitter_sarcastic_not_sarcastic.csv` (previous dataset from X (Twitter) with text on 2 classes: sarcasm, not sarcasm)
-  - `telegram_sarcastic.csv ` (manually reviwed only sarcastic messages from scraped conversational threads)
+  - `twitter_sarcastic_not_sarcastic.csv` (previous dataset from X (Twitter) with texts on 2 classes: sarcasm, not sarcasm)
+  - `telegram_sarcastic.csv ` (manually reviewed only sarcastic messages from scraped conversational threads)
   - `telegram_not_sarcastic_23k.csv` (not sarcastic messages from Telelgram)
     
 **Output**:
@@ -40,7 +40,7 @@ Merging synthetic data from Gemini, GPT-4 Turbo and creating equal by words samp
 
 **Input**:
   - `dataset_cleaned.csv`
-  - TXT files with generated synthetic sarcastic data per Gemini Experimental, GPT-4 Turbo ber zero-shot, one-shot, few-shot prompting
+  - TXT files with generated synthetic sarcastic data per Gemini Experimental, GPT-4 Turbo with zero-shot, one-shot, few-shot prompting
 
 **Output**:
   - `synthetic_data_combined.csv` (combined all synthetic sarcastic data)
